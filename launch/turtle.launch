@@ -1,0 +1,12 @@
+<launch>
+  <!-- Start the Turtlesim node -->
+  <node name="turtlesim_node" pkg="turtlesim" type="turtlesim_node" output="screen"/>
+
+  <!-- Start the turtlebot_control node -->
+  <node name="turtlebot_runner" pkg="turtlesim_assignment" type="turtle_runner.py" output="screen"/>
+
+
+
+
+
+</launch>
